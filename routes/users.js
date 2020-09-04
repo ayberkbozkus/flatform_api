@@ -1,13 +1,7 @@
 var express = require('express');
 var router = express.Router();
 
-const users = [/*{"email":"ayberk.bozkus@gmail.com","password":"ayberk@flatform2020!"},
-{"email":"altanckr@googlemail.com","password":"altan@flatform2020!"},
-{"email":"faruk.deniz@farplas.com","password":"faruk@flatform2020!"},
-{"email":"dogukan.nefis@farplas.com","password":"dogukan@flatform2020!"},
-{"email":"onur@fplus.ventures","password":"onur@flatform2020!"},
-{"email":"alp.kiziltan@farplas.com","password":"alp@flatform2020!"},
-{"email":"o.akin@farplas.com","password":"ozgun@flatform2020!"}*/];
+const users = ["ayberk.bozkus@gmail.com,","altanckr@googlemail.com","faruk.deniz@farplas.com","dogukan.nefis@farplas.com","onur@fplus.ventures","alp.kiziltan@farplas.com","o.akin@farplas.com"];
 
 const ticket = [];
 
