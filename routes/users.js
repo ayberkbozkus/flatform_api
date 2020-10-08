@@ -25,6 +25,13 @@ const fakeapi = [{
             "8": 687,
             "9": 256
         },
+        "modePerc": {
+            "Bekleme": 0.01,
+            "Manuel": 0.01,
+            "Seri Üretim": 0.01,
+            "Setup": 0.01,
+            "Yarı Otomatik": 0.01,
+        }
     },
     "Romanya": {
         "workmachines": {
@@ -47,6 +54,13 @@ const fakeapi = [{
             "8": 0,
             "9": 0
         },
+        "modePerc": {
+            "Bekleme": 0.01,
+            "Manuel": 0.01,
+            "Seri Üretim": 0.01,
+            "Setup": 0.01,
+            "Yarı Otomatik": 0.01,
+        }
 
     },
     "T3": {
@@ -123,9 +137,12 @@ const fakeapi = [{
                     "9": 52
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 87.98,
                     "Seri Üretim": 3.93,
-                    "Yarı Otomatik": 8.09
+                    "Yarı Otomatik": 8.09,
+                    "Setup": 0.01,
+
                 }
             },
             "E034": {
@@ -153,7 +170,11 @@ const fakeapi = [{
                     "9": 1
                 },
                 "modePerc": {
-
+                    "Bekleme": 0.01,
+                    "Manuel": 0.01,
+                    "Seri Üretim": 0.01,
+                    "Yarı Otomatik": 0.01,
+                    "Setup": 0.01,
                 }
             },
             "E080": {
@@ -195,7 +216,8 @@ const fakeapi = [{
                     "Bekleme": 3.14,
                     "Manuel": 10.15,
                     "Seri Üretim": 82.84,
-                    "Yarı Otomatik": 3.89
+                    "Yarı Otomatik": 3.89,
+                    "Setup": 0.01,
                 }
             }
         },
@@ -268,7 +290,8 @@ const fakeapi = [{
                     "Bekleme": 25.12,
                     "Manuel": 1.9,
                     "Seri Üretim": 67.4,
-                    "Yarı Otomatik": 5.59
+                    "Yarı Otomatik": 5.59,
+                    "Setup": 0.01,
                 }
             },
             "E114": {
@@ -308,6 +331,7 @@ const fakeapi = [{
                     "9": 18
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 17.05,
                     "Seri Üretim": 73.21,
                     "Setup": 3.11,
@@ -350,6 +374,7 @@ const fakeapi = [{
                     "9": 21
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 1.3,
                     "Seri Üretim": 83.03,
                     "Setup": 15.17,
@@ -382,6 +407,7 @@ const fakeapi = [{
                     "9": 34
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 2.46,
                     "Seri Üretim": 85.99,
                     "Setup": 7.06,
@@ -458,7 +484,8 @@ const fakeapi = [{
                     "Bekleme": 2.96,
                     "Manuel": 6.09,
                     "Seri Üretim": 72.82,
-                    "Yarı Otomatik": 18.13
+                    "Yarı Otomatik": 18.13,
+                    "Setup": 0.01,
                 }
             },
             "E083": {
@@ -497,6 +524,7 @@ const fakeapi = [{
                     "9": 14
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 0.26,
                     "Seri Üretim": 77.16,
                     "Setup": 1.41,
@@ -528,7 +556,11 @@ const fakeapi = [{
                     "9": 1
                 },
                 "modePerc": {
-
+                    "Bekleme": 0.01,
+                    "Manuel": 0.01,
+                    "Seri Üretim": 0.01,
+                    "Yarı Otomatik": 0.01,
+                    "Setup": 0.01,
                 }
             },
             "E104": {
@@ -556,6 +588,8 @@ const fakeapi = [{
                     "9": 23
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
+                    "Manuel": 0.01,
                     "Seri Üretim": 86.86,
                     "Setup": 0.08,
                     "Yarı Otomatik": 13.06
@@ -597,6 +631,7 @@ const fakeapi = [{
                     "9": 18
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 1.34,
                     "Seri Üretim": 83.47,
                     "Setup": 5.33,
@@ -640,6 +675,7 @@ const fakeapi = [{
                     "9": 25
                 },
                 "modePerc": {
+                    "Bekleme": 0.01,
                     "Manuel": 0.24,
                     "Seri Üretim": 72.07,
                     "Setup": 5.44,
