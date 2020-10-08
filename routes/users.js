@@ -5,19 +5,23 @@ const users = ["ayberk.bozkus@gmail.com,", "altanckr@googlemail.com", "faruk.den
 
 const fakeapi = [{
         "Türkiye": {
-            "work": 12,
-            "total": 48
+            "workmachines": {
+                "work": 12,
+                "total": 48
+            },
         },
         "Romanya": {
-            "work": 0,
-            "total": 48
+            "workmachines": {
+                "work": 0,
+                "total": 48
+            },
         },
         "T3": {
-            "workmachines": {
-                "work": 4,
-                "total": 16
-            },
             "machines": {
+                "workmachines": {
+                    "work": 4,
+                    "total": 16
+                },
                 "E009": {
                     "mold": "-",
                     "cycleMeanMold": "-",
@@ -168,11 +172,11 @@ const fakeapi = [{
             }
         },
         "T1": {
-            "workmachines": {
-                "work": 4,
-                "total": 16
-            },
             "machines": {
+                "workmachines": {
+                    "work": 4,
+                    "total": 16
+                },
                 "E053": {
                     "mold": 2263,
                     "cycleMeanMold": 30.27,
