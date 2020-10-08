@@ -9,7 +9,7 @@ const fakeapi = [{
             "work": 12,
             "total": 48
         },
-        "totalEnergy": {
+        "Energy": {
             "dailyMean": 369.78,
             "weeklyMean": 371.33,
         },
@@ -17,6 +17,10 @@ const fakeapi = [{
             "workmachines": {
                 "work": 0,
                 "total": 48
+            },
+            "Energy": {
+                "dailyMean": 0,
+                "weeklyMean": 0,
             },
         },
         "T3": {
