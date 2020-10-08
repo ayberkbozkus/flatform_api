@@ -61,8 +61,8 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
 
@@ -104,8 +104,8 @@ const fakeapi = [{
                     26
                 ],
                 "Energy": {
-                    "Günlük": 84,
-                    "Haftalık": 528,
+                    "Günlük": 84.0,
+                    "Haftalık": 528.0,
                 },
                 "partCount": {
                     "2083": 54
@@ -134,8 +134,8 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "Günlük": 317,
-                    "Haftalık": 684,
+                    "Günlük": 317.0,
+                    "Haftalık": 684.0,
                 },
                 "partCount": {
 
@@ -173,8 +173,8 @@ const fakeapi = [{
                     35
                 ],
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
                     "2555": 787
@@ -246,8 +246,8 @@ const fakeapi = [{
                     30
                 ],
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
                     "2263": 760
@@ -288,8 +288,8 @@ const fakeapi = [{
                     79.42
                 ],
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
                     "2540": 55,
@@ -331,8 +331,8 @@ const fakeapi = [{
                     65.77
                 ],
                 "Energy": {
-                    "Günlük": 158,
-                    "Haftalık": 168,
+                    "Günlük": 158.0,
+                    "Haftalık": 168.0,
                 },
                 "partCount": {
                     "2977": 429
@@ -362,8 +362,8 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "Günlük": 261,
-                    "Haftalık": 228,
+                    "Günlük": 261.0,
+                    "Haftalık": 228.0,
                 },
                 "partCount": {
                     "2297": 307,
@@ -436,8 +436,8 @@ const fakeapi = [{
                     69
                 ],
                 "Energy": {
-                    "Günlük": 1486,
-                    "Haftalık": 1512,
+                    "Günlük": 1486.0,
+                    "Haftalık": 1512.0,
                 },
                 "partCount": {
                     "2765": 352
@@ -478,8 +478,8 @@ const fakeapi = [{
                     104
                 ],
                 "Energy": {
-                    "Günlük": 715,
-                    "Haftalık": 984,
+                    "Günlük": 715.0,
+                    "Haftalık": 984.0,
                 },
                 "partCount": {
                     "2888": 232
@@ -509,8 +509,8 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
 
@@ -537,8 +537,8 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
 
@@ -578,8 +578,8 @@ const fakeapi = [{
                     76.09
                 ],
                 "Energy": {
-                    "Günlük": 0,
-                    "Haftalık": 0,
+                    "Günlük": 0.0,
+                    "Haftalık": 0.0,
                 },
                 "partCount": {
                     "2290": 131
@@ -620,8 +620,8 @@ const fakeapi = [{
                     54.5
                 ],
                 "Energy": {
-                    "Günlük": 307,
-                    "Haftalık": 360,
+                    "Günlük": 307.0,
+                    "Haftalık": 360.0,
                 },
                 "partCount": {
                     "2317": 95,
@@ -648,8 +648,8 @@ const fakeapi = [{
             }
         },
         "Energy": {
-            "Günlük": 836,
-            "Haftalık": 775,
+            "Günlük": 836.0,
+            "Haftalık": 775.0,
         },
         "facilityModePerc": {
             "Bekleme": 0.592,
