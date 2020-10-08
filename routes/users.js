@@ -32,8 +32,8 @@ const fakeapi = [{
             "Toplam": 48
         },
         "Energy": {
-            "Günlük": 0,
-            "Haftalık": 0,
+            "Günlük": 0.0,
+            "Haftalık": 0.0,
         },
         "hourlyPartCount": {
             "0": 0,
