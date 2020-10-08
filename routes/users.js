@@ -6,29 +6,30 @@ const users = ["ayberk.bozkus@gmail.com,", "altanckr@googlemail.com", "faruk.den
 const fakeapi = [{
     "Türkiye": {
         "workmachines": {
-            "work": 12,
-            "total": 48
+            "Çalışan": 12,
+            "Toplam": 48
         },
         "Energy": {
-            "dailyMean": 369.78,
-            "weeklyMean": 371.33,
+            "Günlük": 369.78,
+            "Haftalık": 371.33,
         },
-        "Romanya": {
-            "workmachines": {
-                "work": 0,
-                "total": 48
-            },
-            "Energy": {
-                "dailyMean": 0,
-                "weeklyMean": 0,
-            },
+    },
+    "Romanya": {
+        "workmachines": {
+            "Çalışan": 0,
+            "Toplam": 48
         },
+        "Energy": {
+            "Günlük": 0,
+            "Haftalık": 0,
+        },
+
     },
     "T3": {
         "machines": {
             "workmachines": {
-                "work": 4,
-                "total": 16
+                "Çalışan": 4,
+                "Toplam": 16
             },
             "E009": {
                 "mold": 0,
@@ -36,14 +37,14 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
 
                 },
                 "hourlyPartCount": {
-                    0: 3,
+                    "0": 3,
                     "1": 67,
                     "2": 1,
                     "3": 1,
@@ -79,14 +80,14 @@ const fakeapi = [{
                     26
                 ],
                 "Energy": {
-                    "dailyMean": 84,
-                    "weeklyMean": 528,
+                    "Günlük": 84,
+                    "Haftalık": 528,
                 },
                 "partCount": {
                     "2083": 54
                 },
                 "hourlyPartCount": {
-                    0: 1,
+                    "0": 1,
                     "1": 1,
                     "2": 1,
                     "3": 1,
@@ -109,14 +110,14 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "dailyMean": 317,
-                    "weeklyMean": 684,
+                    "Günlük": 317,
+                    "Haftalık": 684,
                 },
                 "partCount": {
 
                 },
                 "hourlyPartCount": {
-                    0: 1,
+                    "0": 1,
                     "1": 1,
                     "2": 1,
                     "3": 1,
@@ -148,14 +149,14 @@ const fakeapi = [{
                     35
                 ],
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
                     "2555": 787
                 },
                 "hourlyPartCount": {
-                    0: 103,
+                    "0": 103,
                     "1": 98,
                     "2": 68,
                     "3": 92,
@@ -175,8 +176,8 @@ const fakeapi = [{
             }
         },
         "Energy": {
-            "dailyMean": 133.67,
-            "weeklyMean": 192.67,
+            "Günlük": 133.67,
+            "Haftalık": 192.67,
         },
         "facilityModePerc": {
             "Bekleme": 4.197,
@@ -184,13 +185,25 @@ const fakeapi = [{
             "Seri Üretim": 49.377,
             "Setup": 0.66,
             "Yarı Otomatik": 4.783
-        }
+        },
+        "hourlyPartCount": {
+            "0": 103,
+            "1": 98,
+            "2": 68,
+            "3": 92,
+            "4": 29,
+            "5": 101,
+            "6": 75,
+            "7": 89,
+            "8": 101,
+            "9": 39
+        },
     },
     "T1": {
         "machines": {
             "workmachines": {
-                "work": 4,
-                "total": 16
+                "Çalışan": 4,
+                "Toplam": 16
             },
             "E053": {
                 "mold": 2263,
@@ -209,14 +222,14 @@ const fakeapi = [{
                     30
                 ],
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
                     "2263": 760
                 },
                 "hourlyPartCount": {
-                    0: 30,
+                    "0": 30,
                     "1": 77,
                     "2": 117,
                     "3": 46,
@@ -251,15 +264,15 @@ const fakeapi = [{
                     79.42
                 ],
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
                     "2540": 55,
                     "2544": 238
                 },
                 "hourlyPartCount": {
-                    0: 12,
+                    "0": 12,
                     "1": 41,
                     "2": 44,
                     "3": 44,
@@ -294,14 +307,14 @@ const fakeapi = [{
                     65.77
                 ],
                 "Energy": {
-                    "dailyMean": 158,
-                    "weeklyMean": 168,
+                    "Günlük": 158,
+                    "Haftalık": 168,
                 },
                 "partCount": {
                     "2977": 429
                 },
                 "hourlyPartCount": {
-                    0: 1,
+                    "0": 1,
                     "1": 26,
                     "2": 56,
                     "3": 56,
@@ -325,15 +338,15 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "dailyMean": 261,
-                    "weeklyMean": 228,
+                    "Günlük": 261,
+                    "Haftalık": 228,
                 },
                 "partCount": {
                     "2297": 307,
                     "2535": 297
                 },
                 "hourlyPartCount": {
-                    0: 48,
+                    "0": 48,
                     "1": 67,
                     "2": 67,
                     "3": 67,
@@ -353,8 +366,8 @@ const fakeapi = [{
             }
         },
         "Energy": {
-            "dailyMean": 139.67,
-            "weeklyMean": 146.33,
+            "Günlük": 139.67,
+            "Haftalık": 146.33,
         },
         "facilityModePerc": {
             "Bekleme": 6.28,
@@ -362,13 +375,25 @@ const fakeapi = [{
             "Seri Üretim": 77.407,
             "Yarı Otomatik": 4.303,
             "Setup": 6.335
-        }
+        },
+        "hourlyPartCount": {
+            "0": 103,
+            "1": 98,
+            "2": 68,
+            "3": 92,
+            "4": 29,
+            "5": 101,
+            "6": 75,
+            "7": 89,
+            "8": 101,
+            "9": 39
+        },
     },
     "T2": {
         "machines": {
             "workmachines": {
-                "work": 6,
-                "total": 14
+                "Çalışan": 6,
+                "Toplam": 14
             },
             "E059": {
                 "mold": 2765,
@@ -387,14 +412,14 @@ const fakeapi = [{
                     69
                 ],
                 "Energy": {
-                    "dailyMean": 1486,
-                    "weeklyMean": 1512,
+                    "Günlük": 1486,
+                    "Haftalık": 1512,
                 },
                 "partCount": {
                     "2765": 352
                 },
                 "hourlyPartCount": {
-                    0: 16,
+                    "0": 16,
                     "1": 23,
                     "2": 35,
                     "3": 25,
@@ -429,14 +454,14 @@ const fakeapi = [{
                     104
                 ],
                 "Energy": {
-                    "dailyMean": 715,
-                    "weeklyMean": 984,
+                    "Günlük": 715,
+                    "Haftalık": 984,
                 },
                 "partCount": {
                     "2888": 232
                 },
                 "hourlyPartCount": {
-                    0: 31,
+                    "0": 31,
                     "1": 24,
                     "2": 32,
                     "3": 33,
@@ -460,14 +485,14 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
 
                 },
                 "hourlyPartCount": {
-                    0: 1,
+                    "0": 1,
                     "1": 1,
                     "2": 1,
                     "3": 1,
@@ -488,14 +513,14 @@ const fakeapi = [{
                 "cycleMeanLast10": 0,
                 "cycleTimesLast10": 0,
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
 
                 },
                 "hourlyPartCount": {
-                    0: 66,
+                    "0": 66,
                     "1": 59,
                     "2": 66,
                     "3": 65,
@@ -529,14 +554,14 @@ const fakeapi = [{
                     76.09
                 ],
                 "Energy": {
-                    "dailyMean": 0,
-                    "weeklyMean": 0,
+                    "Günlük": 0,
+                    "Haftalık": 0,
                 },
                 "partCount": {
                     "2290": 131
                 },
                 "hourlyPartCount": {
-                    0: 77,
+                    "0": 77,
                     "1": 49,
                     "2": 78,
                     "3": 76,
@@ -571,15 +596,15 @@ const fakeapi = [{
                     54.5
                 ],
                 "Energy": {
-                    "dailyMean": 307,
-                    "weeklyMean": 360,
+                    "Günlük": 307,
+                    "Haftalık": 360,
                 },
                 "partCount": {
                     "2317": 95,
                     "2592": 332
                 },
                 "hourlyPartCount": {
-                    0: 46,
+                    "0": 46,
                     "1": 28,
                     "2": 23,
                     "3": 57,
@@ -599,8 +624,8 @@ const fakeapi = [{
             }
         },
         "Energy": {
-            "dailyMean": 836,
-            "weeklyMean": 775,
+            "Günlük": 836,
+            "Haftalık": 775,
         },
         "facilityModePerc": {
             "Bekleme": 0.592,
@@ -608,7 +633,19 @@ const fakeapi = [{
             "Seri Üretim": 78.476,
             "Yarı Otomatik": 16.894,
             "Setup": 2.452
-        }
+        },
+        "hourlyPartCount": {
+            "0": 103,
+            "1": 98,
+            "2": 68,
+            "3": 92,
+            "4": 29,
+            "5": 101,
+            "6": 75,
+            "7": 89,
+            "8": 101,
+            "9": 39
+        },
     }
 }];
 const ticket = [];
